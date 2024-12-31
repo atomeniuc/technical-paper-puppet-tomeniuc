@@ -1,17 +1,32 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+# Created by https://www.toptal.com/developers/gitignore/api/vagrant,puppet
+# Edit at https://www.toptal.com/developers/gitignore?templates=vagrant,puppet
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+### Puppet ###
+# gitignore template for Puppet modules
+# website: https://forge.puppet.com/
+
+# Built packages
+pkg/*
+
+# Should run on multiple platforms so don't check in
+Gemfile.lock
+
+# Tests
+spec/fixtures/*
+coverage/*
+
+# Third-party
+vendor/*
+.bundle/*
+
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
+# End of https://www.toptal.com/developers/gitignore/api/vagrant,puppet
