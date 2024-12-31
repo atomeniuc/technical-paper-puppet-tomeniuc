@@ -1,4 +1,4 @@
-# Technical Paper - Puppet
+# Technical Paper - Puppet (Reference project)
 
 By Alejandro Dario Tomeniuc, 5AHIF
 
